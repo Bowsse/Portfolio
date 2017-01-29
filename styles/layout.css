@@ -1,0 +1,87 @@
+﻿/* CSS Document */
+body {
+	font-size: 100%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background-color: #BABBB0;
+}
+img {
+    width: 10%;
+    height: auto;
+}
+article.page {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+header {
+	padding: 1em;
+	background-color:#2E2F28;
+	color: #F0EBEB;
+	text-align: center;
+	font-size: 200%;
+	letter-spacing: 0.3em;
+	
+}
+nav, footer
+{
+	clear:both;
+	height: 1.875em;
+	background-color:#255C63;
+	color: #F7F5EE;
+	text-align: center;
+	
+}
+section {
+	background-color:#9B9B9B;
+	overflow:auto;
+	text-align:center;
+	padding-top: 1em;
+}
+section.content {
+	float: left;
+	overflow: hidden;
+	width: 78%;
+	background-color: #F7F5EE;
+	border: 1px solid;
+	border-color:#285456;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 0.5em;
+	border-radius: 5px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+	display: inline;
+	
+	padding: 0.2em;
+
+}
+
+nav a:link, nav a:visited {
+    width: auto;
+    font-weight: bold;
+    color: #FFFFFF;
+	background-color:#255C63;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover, nav a:active {
+    background-color:#36B9C4;
+}
+
+.teksti_exo {font-family: 'Exo', sans-serif;}
+.teksti_roboto {font-family: 'Roboto', sans-serif;}
