@@ -8,6 +8,11 @@ img {
     width: 10%;
     height: auto;
 }
+img.portfolio {
+    width: 60%;
+    height: auto;
+}
+
 article.page {
 	max-width: 90%;
 	margin-left: auto;
@@ -51,6 +56,22 @@ section.content {
 	margin-bottom: 3%;
 	padding: 0.5em;
 	border-radius: 5px;
+
+}
+section.portfolio {
+	float: left;
+	overflow: hidden;
+	width: 39%;
+	background-color: #F7F5EE;
+	border: 1px solid;
+	border-color:#285456;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	padding: 0.2em;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
 
 }
 ul {
